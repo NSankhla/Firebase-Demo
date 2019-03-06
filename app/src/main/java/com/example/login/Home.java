@@ -19,6 +19,7 @@ FirebaseAuth auth;
         setContentView(R.layout.activity_home);
         btnLogOut=findViewById(R.id.btnLogOut);
         auth=FirebaseAuth.getInstance();
+
         btnLogOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
